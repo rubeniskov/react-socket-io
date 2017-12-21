@@ -1,5 +1,6 @@
 import React from 'react';
 import SocketIO from 'socket.io-client';
+import PropTypes from 'prop-types';
 
 import { warning, debug } from './utils';
 
@@ -69,13 +70,13 @@ class Socket extends React.Component {
 }
 
 Socket.propTypes = {
-  options: React.PropTypes.object,
-  uri: React.PropTypes.string,
-  children: React.PropTypes.element.isRequired
+  options: PropTypes.object,
+  uri: PropTypes.string,
+  children: PropTypes.element.isRequired
 };
 
 Socket.childContextTypes = {
-  socket: React.PropTypes.object
+  socket: PropTypes.object
 };
 
 export default Socket;

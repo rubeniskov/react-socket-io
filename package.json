@@ -8,7 +8,8 @@
     "start": "gulp"
   },
   "dependencies": {
-    "socket.io-client": "^1.5.0"
+    "socket.io-client": "^1.5.0",
+    "prop-types": "^15.6.0"
   },
   "devDependencies": {
     "babel-plugin-transform-runtime": "^6.15.0",
@@ -30,7 +31,7 @@
     "gulp-uglify": "^2.0.0",
     "gulp-util": "^3.0.7",
     "pump": "^1.0.2",
-    "react": "^15.3.2",
+    "react": "^16.2.0",
     "run-sequence": "^1.2.2",
     "socket.io": "^1.5.0",
     "vinyl-buffer": "^1.0.0",
